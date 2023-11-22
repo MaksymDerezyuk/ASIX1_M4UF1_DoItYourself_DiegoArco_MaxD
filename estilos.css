@@ -1,0 +1,42 @@
+/* Regla 1: El elemento "h1" estara subrayado, de color aquamarine y alineados al centro. */
+h1 {
+    text-decoration: underline aquamarine;
+    text-align: center;
+}
+/* Regla 2: Los elementos "h3" estarán tendrán un relleno de 5%, un border: solid darkcyan 1px;. */
+/* Regla 3: Los elementos "h3" esquinas redondeadas con valor de 5px. */
+h3 {
+    padding: 5%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
+/* Regla 4: Los elementos "p" estarán de color darkslategrey. */
+p {
+    color: darkslategrey;
+}
+/* Regla 5: El elemento "table" estara con un width de 100%, deja un margen en blanco en la parte superior (border-collapse: collapse;) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Regla 6: En los elementos "td" y "th" tendran un ancho de borde de 3px y el estilo del borde sea "solid" de color #ddd y por ultimo el texto alineado hacia la izquierda. Por ultimo el fondo que sea de color blanco. */
+td,th {
+    border: 3px solid #ddd;
+    text-align: left;
+    background-color: white;
+}
+/* Regla 7: El elemento "th" tendra un fondo de color "#f2f2f2". */
+th {
+    background-color: #f2f2f2;
+}
+/* Regla 8: El elemento "img" tendra un ancho de 110px y alinedo al centro y un borde de color aquamarine del 3px */
+img {
+    width: 110px;
+    align-items: center;
+    border: aquamarine 3px solid;
+}
+/* Regla 9: En el elemento body estara el fondo de color "azure". Ademas tendra una fuente de Fonts Google https://fonts.google.com/specimen/Roboto+Condensed. */
+body {
+    color: azure;
+    font-family: 'Roboto Condensed', sans-serif;
+}
